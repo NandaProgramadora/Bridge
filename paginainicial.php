@@ -200,6 +200,7 @@ body {
     <div class="cards">
         <div class="card">
             <h3>Chat Inteligente</h3>
+
             <p>Converse com IA para tirar dúvidas</p>
         </div>
 

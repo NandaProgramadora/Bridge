@@ -12,7 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Btn-login'])) {
     if (empty($email) || empty($senha)) {
         $error = "Preencha todos os campos!";
     } else {
-
         $sql = "SELECT * FROM usuarios WHERE email_usuarios = ?";
         $stmt = mysqli_prepare($conn, $sql);
         mysqli_stmt_bind_param($stmt, "s", $email);
@@ -34,7 +33,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Btn-login'])) {
                     header("Location: painel_aluno.php");
                 }
                 exit();
-
             } else {
                 $error = "Senha incorreta!";
             }
@@ -45,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Btn-login'])) {
     }
 }
 ?>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
