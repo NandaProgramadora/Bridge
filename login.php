@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Btn-login'])) {
     }
 }
 ?>
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
